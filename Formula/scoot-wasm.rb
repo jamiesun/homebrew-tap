@@ -1,7 +1,7 @@
 class ScootWasm < Formula
   desc "Optional standalone Wasm compute-unit host for scoot"
   homepage "https://github.com/jamiesun/scoot"
-  version "0.5.0"
+  version "0.6.0"
   license "MIT"
 
   # Installing the host pulls in the agent so wasm_tool works end-to-end.
@@ -9,11 +9,11 @@ class ScootWasm < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/jamiesun/scoot/releases/download/v0.5.0/scoot-wasm-v0.5.0-macos-arm64.tar.gz"
-      sha256 "775a5803654722ae93e46cf573e69476205fa86d3c3fa1fe41b644848015f4ce"
+      url "https://github.com/jamiesun/scoot/releases/download/v0.6.0/scoot-wasm-v0.6.0-macos-arm64.tar.gz"
+      sha256 "66912d188ca696b5c8ead1e93f00068b6bd1eca2f540b2f92047e6186ce9abc0"
     else
-      url "https://github.com/jamiesun/scoot/releases/download/v0.5.0/scoot-wasm-v0.5.0-macos-amd64.tar.gz"
-      sha256 "0affb5ef46024e214ed93911c695fa78c17da21dcd3e83ba6958c651cdf6c7fa"
+      url "https://github.com/jamiesun/scoot/releases/download/v0.6.0/scoot-wasm-v0.6.0-macos-amd64.tar.gz"
+      sha256 "8704977359fc92704a0697517cf817b5965ceb3d96907cfdfc58dbc754dfb964"
     end
   end
 
