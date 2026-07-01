@@ -1,7 +1,7 @@
 class ScootEdge < Formula
   desc "Optional standalone fleet companion (status heartbeat + job dispatch) for scoot"
   homepage "https://github.com/jamiesun/scoot"
-  version "0.8.0"
+  version "0.9.0"
   license "MIT"
 
   # scoot-edge launches the agent as a subprocess, so installing it
@@ -10,11 +10,11 @@ class ScootEdge < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/jamiesun/scoot/releases/download/v0.8.0/scoot-edge-v0.8.0-macos-arm64.tar.gz"
-      sha256 "7e01471f8026ac58acfc573b083a972bf85ed3e01a067dd90b0ffbfc03729f76"
+      url "https://github.com/jamiesun/scoot/releases/download/v0.9.0/scoot-edge-v0.9.0-macos-arm64.tar.gz"
+      sha256 "7dde3b2fc2b9d4065b1cb9be69a87cbae7a170a4871f4aadd316a4121ae2c78c"
     else
-      url "https://github.com/jamiesun/scoot/releases/download/v0.8.0/scoot-edge-v0.8.0-macos-amd64.tar.gz"
-      sha256 "64e8a0071b918e3011767f9746bbe719af60d1d47edc894efb4b53f817da53e2"
+      url "https://github.com/jamiesun/scoot/releases/download/v0.9.0/scoot-edge-v0.9.0-macos-amd64.tar.gz"
+      sha256 "57eab60df13840d022fb4ee4d01761d6a5fb608362b2198015f41425ca1160ad"
     end
   end
 
