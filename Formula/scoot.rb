@@ -1,16 +1,16 @@
 class Scoot < Formula
   desc "Lightweight, local-first, auditable AI agent daemon and CLI in pure Zig"
   homepage "https://github.com/jamiesun/scoot"
-  version "0.7.0"
+  version "0.8.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/jamiesun/scoot/releases/download/v0.7.0/scoot-v0.7.0-macos-arm64.tar.gz"
-      sha256 "4b20270dfe3c1dd4c4b8c8407abeddd8a87f419bb4ea801b3bc5bd64d1d6a216"
+      url "https://github.com/jamiesun/scoot/releases/download/v0.8.0/scoot-v0.8.0-macos-arm64.tar.gz"
+      sha256 "8ab73f4a9195a7274895bac7a3d5ab8eac9d70d0bc7fe8f78d630a842a0ca11f"
     else
-      url "https://github.com/jamiesun/scoot/releases/download/v0.7.0/scoot-v0.7.0-macos-amd64.tar.gz"
-      sha256 "14d7c6f4128bcc3e7bcc4604cedbd2112a6642f5f67b2f7a34b08d264ee4f868"
+      url "https://github.com/jamiesun/scoot/releases/download/v0.8.0/scoot-v0.8.0-macos-amd64.tar.gz"
+      sha256 "5031bfbc4079f5d4229804503369ab77766c631e5b2b16b419297c4c2e1b971d"
     end
   end
 
